@@ -1,0 +1,477 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 18px;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+h4 {
+  /* text-transform: uppercase; */
+  text-align: center;
+  font-weight: 400;
+  /* font-size: 2rem; */
+}
+
+
+.no-bullet-list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.no-bullet-list li {
+    text-align: center;
+    line-height: 2;
+    font-size: 2.5rem;
+}
+ 
+.hero {
+    background-color: #e9354c;
+}
+
+.hero img {
+    max-width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red-slope {
+    background-image: url("../img/Noah-03.png");
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+}
+
+.red-slope-video {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-bottom: 3rem; */
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+  
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.star img {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.btn {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.boxes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    grid-gap: 4rem;
+    justify-content: center;
+    margin-top: 1rem;
+    /* margin-bottom: 4rem; */
+  }
+  
+.grey-box {
+    background-color: #aeb5bf;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 3rem;
+  }
+
+.grey-box:hover {
+    background-color: #e9354c;
+}
+  
+.grey-box span {
+    font-size: 8rem;
+    line-height: 1.5;
+  }
+  
+.grey-box p {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+.timlogo {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    background: #aeb5bf;
+    padding: 2rem;
+  }
+  
+.timlogo img {
+    grid-column: 1/2;
+    height: auto;
+    position: relative;
+    right: 6rem;
+    max-height: 650px;
+    justify-self: right;
+    padding-top: 1rem;
+  }
+  
+.timlogo-details {
+    /* grid-column: 2/3; */
+    color: white;
+    /* padding-top: 10px; */
+    /* padding-right: 10rem; */
+  }
+  
+.timlogo-details * {
+    text-align: left;
+  }
+
+  .timlogo-details p {
+    font-size: 1.5rem;
+  }
+
+/* #timlogo-fontsize {
+  font-size: 1rem;
+} */
+
+.testimonies {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background: #e9354c;
+    /* display: grid;
+    grid-template-columns: 65%;
+    justify-content: center; */
+  }
+
+.testimonies-grid {
+  display: grid;
+  grid-template-columns: 65%;
+  justify-content: center;
+}
+  
+.testimonies h2 {
+    color: white;
+  }
+  
+.testimonies blockquote {
+    background: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.65rem;
+  }
+  
+.testimonies figcaption {
+    color: white;
+    text-align: right;
+    font-size: 1.7rem;
+  }
+
+.kitbox img {
+    margin: 2vh;
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grey-slope {
+    background-image: url("../img/Noah-02.png");
+    background-size: 100% 18%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+} 
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+
+  .red-slope-video {
+    width: 65%;
+  }
+ 
+  .hero img {
+    max-width: 55%;
+  }
+ 
+  .star img {
+    max-width: 65%;
+  }
+ 
+  .btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    border-radius: .6rem;
+  }
+ 
+  .grey-box span {
+    line-height: 1.3;
+  }
+
+  .grey-box p {
+    font-size: 1.5rem;
+  }
+ 
+  .boxes-container {
+    grid-template-columns: repeat(3,28%);
+    grid-gap: 2rem;
+  }
+ 
+  .timlogo {
+    grid-template-columns: 100%;
+  }
+ 
+  .timlogo img {
+    height: auto;
+    right: 0;
+    max-height: 250px;
+    justify-self: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .timlogo-details * {
+    text-align: center;
+  }
+ 
+  .timlogo-details p {
+    font-size: 1.5rem;
+  }
+
+  .testimonies-grid {
+    grid-template-columns: 80%;
+  }
+ 
+  .testimonies blockquote {
+    margin-top: 0;
+  }
+ 
+  .kitbox img {
+    max-width: 60%;
+  }
+
+  .no-bullet-list li {
+    font-size: 2rem;
+  }
+
+  .grey-slope {
+    background-size: 100% 25%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  html {
+   font-size: 11px;
+  }
+  .red-slope-video {
+    width: 65%;
+  }
+ 
+  .hero img {
+    max-width: 50%;
+  }
+ 
+  .star img {
+    max-width: 65%;
+  }
+ 
+  .btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    border-radius: .6rem;
+  }
+ 
+  .grey-box span {
+    line-height: 1.3;
+  }
+
+  .grey-box p {
+    font-size: 1.5rem;
+  }
+ 
+  .boxes-container {
+    grid-template-columns: repeat(3,28%);
+    grid-gap: 2rem;
+  }
+ 
+  .timlogo {
+    grid-template-columns: 30% 70%;
+  }
+ 
+  .timlogo img {
+    max-height: 250px;
+    right: 2.5rem;
+    top: 5rem;
+  }
+ 
+  .timlogo-details p {
+    font-size: 1.5rem;
+  }
+ 
+  .testimonies blockquote {
+    margin-top: 0;
+  }
+
+  .testimonies-grid {
+    grid-template-columns: 75%;
+  }
+ 
+  .kitbox img {
+    max-width: 60%;
+  }
+
+  .no-bullet-list li {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+ html {
+   font-size: 12px;
+ }
+ .red-slope-video {
+   width: 65%;
+ }
+
+ .hero img {
+   max-width: 50%;
+ }
+
+ .star img {
+   max-width: 65%;
+ }
+
+ .btn-lg {
+   padding: 1rem 2rem;
+   font-size: 1.8rem;
+   border-radius: .6rem;
+ }
+
+ .grey-box span {
+   line-height: 1.3;
+ }
+
+ .boxes-container {
+   grid-template-columns: repeat(3,25%);
+   grid-gap: 3rem;
+ }
+
+ .timlogo {
+   grid-template-columns: 40% 60%;
+ }
+
+ .timlogo img {
+   max-height: 400px;
+   right: 3rem;
+   top: 2rem;
+ }
+
+ .timlogo-details p {
+   font-size: 1.65rem;
+ }
+
+ .testimonies blockquote {
+   margin-top: 0;
+ }
+
+ .kitbox img {
+   max-width: 60%;
+ }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 14px;
+  }
+  .red-slope-video {
+    width: 65%;
+  }
+ 
+  .hero img {
+    max-width: 50%;
+  }
+ 
+  .star img {
+    max-width: 65%;
+  }
+ 
+  .btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    border-radius: .6rem;
+  }
+ 
+  .grey-box span {
+    line-height: 1.3;
+  }
+ 
+  .boxes-container {
+    grid-template-columns: repeat(3,25%);
+    grid-gap: 3rem;
+  }
+ 
+  .timlogo {
+    grid-template-columns: 40% 60%;
+  }
+ 
+  .timlogo img {
+    max-height: 450px;
+    right: 3rem;
+    top: 2.5rem;
+  }
+ 
+  .timlogo-details p {
+    font-size: 1.65rem;
+  }
+ 
+  .testimonies blockquote {
+    margin-top: 0;
+  }
+ 
+  .kitbox img {
+    max-width: 60%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
