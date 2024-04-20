@@ -1,4 +1,4 @@
 # IAmTimCorey-CSharpStarterKit
-Check out the webpage I created for IAmTimCorey's C# Starter Kit: 
+Check out the webpage I created for IAmTimCorey's C# Starter Kit: via @noahmacey-iamtimcorey
 
-https://noahmacey.github.io/IAmTimCorey-CSharpStarterKit/
+https://csharpstarterkit.com/
